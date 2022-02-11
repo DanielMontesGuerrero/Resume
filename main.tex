@@ -1,0 +1,186 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.70\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{{Daniel}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{{MONTES GUERRERO}}}}} % Last name
+	
+	\vspace{6pt}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you wan
+	\icon{Phone}{12}{+52 735 214 0767}\\
+	\icon{Envelope}{12}{\href{mailto:dmontesguerrero17@gmail.com}{dmontesguerrero17@gmail.com}}\\
+	\icon{Github}{12}{\href{https://github.com/DanielMontesGuerrero}{@DanielMontesGuerrero}}\\
+\end{minipage}
+
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2018-Present}
+		{Bachelor’s degree in Computer Systems Engineering}
+		{Graduating in December 2023}
+		{\textbf{ESCOM-IPN (Superior School of Computer Sciences)}\\
+		Student of academic excellence for 5 consecutive semesters.\\
+		Participant of ``Algorithms Club - ESCOM''
+		 \begin{flushright}
+		 	CGPA 89 out of 100
+		 \end{flushright}
+		}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+
+\cvsect{Projects}
+
+\begin{entrylist}
+	\entry
+		{spring 2021}
+		{Random Map Generator}
+		{Programming language and compiler}
+		{A language that allows you to describe 2D maps for videogames in Unity. The language algorithms to generate random maps using Perlin Noise. Offers ``smarttiles'' to auto fill the map with tiles. A compiler was also built for the language to generate C\# scripts and use these scripts in Unity. Built in a team of three people.\\
+		- Built with C\#, Unity, Flex and Bison.}
+	\entry
+		{fall 2020}
+		{SARA}
+		{Warehouse Resource Management System}
+		{A system designed to help in the management of warehouse of a distribution center of company. The system consist in a website and a mobile app. This system manage the pick up process and keeps track of the products location. Built in a team of eight people.\\
+		- Worked in the mobile app using Java and Android Studio.\\
+		- Reduced times, and eliminated the usage of paper tickets in the pick up process.
+		}
+\end{entrylist}
+
+\cvsect{Interships}
+
+\begin{entrylist}
+	\entry
+		{summer 2021}
+		{Microsoft}
+		{Explorer Intern}
+		{It was a 3 month internship. I performed as a Program Manager the first month and as a Software Engineer the last two months. I worked with two other explorer interns in a project where we improved how configuration files are updated for in the admin tool.\\
+		- Talked to stakeholders to identify the problems with the current tool.\\
+		- Improved UI and UX using angular js.
+		- Worked with .NET for the backed.}
+	\entry
+		{fall 2021}
+		{Meta}
+		{Software Engineer Intern}
+		{It was a 3 month internship. I worked in a dependency manager service in the cloud to manage asynchronous workflows and their dependencies between Meta's internal services. I implemented methods to detect stuck workflows and workflows that were executed out of order.\\
+		- Worked with c++ and Hack to add new health metrics for the service.\\
+		- Used python to implement an workflow out of order detection tool.\\
+		}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\cvsect{Awards}
+
+\begin{entrylist}
+	\entry
+		{1st place}
+		{16th Annual Programming Contest ``ANIEI 2021'', team ``Discípulos de Marckess''}
+		{2021}
+		{}
+	\entry
+		{4th place,\\
+		out of 250\\
+		participants}
+		{XII Annual Programming Contest ``Donald Knuth'' by ESCOM in MX Division}
+		{2020}
+		{}
+	\entry
+		{7th place,\\out of 351 teams}
+		{``Gran Premio de México'' - ICPC Programming Contest, team ``Cámara Ya Súbelo Asi w''}
+		{2020}
+		{}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.25\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Technologies}
+	
+	\textbf{C++} - 3 years for competitive\\
+	programming\\
+	\textbf{Java} - 2 years\\
+	\textbf{JavaScript} - 1.5 year\\
+	\textbf{Python} - 1.5 year\\
+\textbf{C\#} - 1 year
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.17\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Languages}
+	
+	\textbf{Spanish} - native\\
+	\textbf{English} - TOEFL pBT
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Activities}
+	
+	11th Argentina Training Camp of UNLaR - 2020\\
+	1st Winter Training Camp of ESCOM Algorithm Club - 2020\\
+	Summer Training Camp of ESCOM Algorithm Club - 2019
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
